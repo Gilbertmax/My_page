@@ -1,0 +1,120 @@
+/* Reset de estilos para eliminar márgenes y rellenos predeterminados */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #ffc0cb, #fff); /* Gradiente de rosa pastel a blanco */
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 20px; /* Bordes redondeados al cuerpo de la página */
+}
+
+/* Estilo para el encabezado */
+header {
+    text-align: center;
+    background-color: #007acc;
+    color: #fff;
+    padding: 20px;
+    border-radius: 20px; /* Bordes redondeados al encabezado */
+}
+
+/* Estilo para el título del encabezado */
+header h1 {
+    font-size: 36px;
+}
+
+/* Estilo para el subtítulo del encabezado */
+header p {
+    font-size: 18px;
+}
+
+/* Estilo para la navegación */
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 20px; /* Bordes redondeados a la navegación*/
+}
+/* Estilo para los enlaces de navegación con transición */
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin: 0 20px;
+    transition: color 0.3s ease; /* Transición de color suave */
+}
+
+/* Cambio de color al pasar el cursor sobre los enlaces */
+nav a:hover {
+    color: #ff69b4; /* Color rosa más llamativo */
+}
+
+/* Estilo para las secciones con efecto de sombra */
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 20px; /* Bordes redondeados a las secciones */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efecto de sombra */
+}
+
+/* Estilo para el pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 20px; /* Bordes redondeados al pie de página */
+}
+
+/* Estilo para el enlace de descarga del CV */
+footer a {
+    text-decoration: none;
+    color: #007acc;
+    font-weight: bold;
+}
+
+/* Estilo para la sección de contacto */
+#contact {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+/* Estilo para la lista de datos de contacto */
+#contact ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo para los elementos de la lista de datos de contacto */
+#contact li {
+    margin-bottom: 10px;
+}
+
+/* Estilo para la imagen de perfil */
+#profile-photo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para el contenido de las secciones */
+.section-content {
+    display: none; /* Oculta el contenido de las secciones por defecto */
+}

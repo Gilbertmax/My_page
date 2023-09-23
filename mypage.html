@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gilberto Gonzalez - Software developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function toggleSection(sectionId) {
+            var section = document.getElementById(sectionId);
+            var content = section.querySelector('.section-content');
+
+            if (content.style.display === 'none' || content.style.display === '') {
+                content.style.display = 'block';
+            } else {
+                content.style.display = 'none';
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to my website</h1>
+        <p>Software developer</p>
+        <img src="foto.jpg" alt="Your photo" id="profile-photo">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="javascript:void(0);" onclick="toggleSection('about')">About me</a></li>
+            <li><a href="javascript:void(0);" onclick="toggleSection('Repositories')">Repositories</a></li>
+            <li><a href="javascript:void(0);" onclick="toggleSection('contact')">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h2>About me</h2>
+        <div class="section-content">
+            <p>"I am a software development engineer, and I can adapt to any work environment. I have experience in developing a chatbot,
+                 AutoBotTrading, database design, web pages, software programs, and more. My main programming languages are Python and Java,
+                  but I adapt based on the project's requirements and the skills needed. Currently,
+                 I am the leader of new product development and coordinate engineering teams to efficiently and timely execute the work. I have experience in all phases of software development.
+                 Quality assurance is crucial in my work, and I implement best practices for testing and code review."</p>
+        </div>
+    </section>
+    <section id="Repositories">
+        <h2>Repositories</h2>
+        <div class="section-content">
+            <p>"Here you can view small programs that I have created, as they are just sample examples."</p>
+            <p>Visit my GitHub profile: <a href="https://github.com/Gilbertmax?tab=repositories" target="_blank">GitHub</a></p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="section-content">
+            <ul>
+                <li>Mobile: 392-121-3634</li>
+                <li>Address: Tlaquepaque, Jalisco.</li>
+                <li>Email: <a href="gilbertoglez1999@hotmail.com">gilbertoglez1999@hotmail.com</a></li>
+            </ul>
+        </div>
+    </section>    
+    <footer>
+        <a href="Gilberto_CV.pdf" download>Download CV</a>
+    </footer>
+</body>
+</html>
